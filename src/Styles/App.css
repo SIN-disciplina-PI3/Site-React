@@ -1,0 +1,266 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Navbar CSS */
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #A21942;
+  color: white;
+}
+
+.Logo {
+  font-size: 2.0rem;  
+}
+
+.hamburger-button {
+  display: none; /* Oculta o botão em telas maiores */
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-open {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #333;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .hamburger-button {
+    display: block; /* Mostra o botão em telas menores */
+  }
+
+  ul {
+    display: none; /* Oculta o menu principal em telas menores */
+    flex-direction: column;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  ul.menu-open {
+    display: block; /* Mostra o menu aberto em telas menores */
+  }
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Galeria principal*/
+.Galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px; 
+
+}
+
+/* Estilo para cada imagem na galeria */
+.Galeria img {
+  cursor: pointer;
+  width: 150px;
+  height: 150px; 
+  
+}
+
+
+.ItemGaleria{
+  border: 3px #872c40 solid;
+
+  cursor: pointer;
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+  box-shadow: 5px 4px grey;
+  border-radius: 15px;
+  transition: 1ms;
+}
+.ItemGaleria:hover{
+  border: 4px #550012 solid;
+
+}
+.Container-Galeria{
+  font-family: Gill Sans, sans-serif;
+  margin-top: 150px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*PAGE:ODS CSS*/
+
+.imagem-ODS{
+  width: 60%;
+  margin: auto;
+  display: block;
+
+}
+.conteudo-ODS{
+  margin-bottom: 300px;
+}
+.conteudo-ODS p{
+  margin-right: 800px;
+  margin-left: 450px;
+
+}
+.conteudo-ODS h3{
+  margin-top: 80px;
+  margin-right: 800px;
+  margin-left: 450px;
+
+}
+.conteudo-ODS h2{
+  margin-top: 80px;
+  margin-right: 800px;
+  margin-left: 450px;
+
+}
+   
+p{
+  margin-top: 20px;
+
+}
+
+.T-nome h1{
+  margin-top: 150px;
+  text-align: center;  
+}
+.T-subtitulo h4{
+  margin-top: 10px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Page perfil CSS*/
+
+.perfil-imagem {
+  width: 300px; /* Largura fixa para o contêiner da imagem */
+  height: 300px; /* Altura fixa para o contêiner da imagem */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.Nome-Perfil{
+  text-align: center;
+  margin-top: 30px;
+}
+.descrição{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.descrição p{
+  line-height: 1.5;
+}
+.miguel-image { 
+  width: 100%; /* Torna a imagem responsiva */
+  height: 100%; /* Torna a imagem responsiva */
+  border-radius: 100%;
+  border: #550012 5px solid;
+
+
+}
+/*Galeria Contatos Css*/
+
+/* Estilo para a galeria */
+.Galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px; 
+  margin-top: 30px;
+}
+
+/* Estilo para cada imagem na galeria */
+.Galeria img {
+  cursor: pointer;
+  width: 150px;
+  height: 150px; 
+  
+}
+
+
+.Galeria-Contatos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px; 
+  margin-top: 30px;
+  margin-bottom: 100px;
+
+}
+
+.ItemGaleria-Contatos{
+
+  cursor: pointer;
+  margin: 5px;
+  
+box-shadow: 5px 4px grey;
+  border-radius: 15px;
+  transition: 1ms;
+}
+.ItemGaleria-Contatos:hover{
+  border: 4px #081C15 solid;
+
+}
+.Contatos h4{
+  text-align:center;
+}
+/**/
+
+.titulo-home{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.conteudo-home img{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 200px;
+  display: block;
+
+};
+.Atividade-texto h1{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
